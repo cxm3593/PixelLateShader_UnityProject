@@ -1,0 +1,1222 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Projects/PixelArtShader_BuiltInRender
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55743
+Successfully changed project path to: D:/Unity/Projects/PixelArtShader_BuiltInRender
+D:/Unity/Projects/PixelArtShader_BuiltInRender
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Projects/PixelArtShader_BuiltInRender/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: NVIDIA GeForce RTX 2070/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 511.79
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_win32 GL_NV_memory_object_sparse GL_EXT_win32_keyed_mutex GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_win32 GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced_cohe
+rent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_pr
+ogram4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rat
+e_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NVX_linked_gpu_multicast GL_NV_gpu_multicast GL_NVX_gpu_multicast2 GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_multigpu_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipm
+ap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum GL_WIN_swap_hint WGL_EXT_swap_control
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 65537
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001095 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (469ms)
+		BeginReloadAssembly (50ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+-------- Shader Hidden/GLSL_PP compilation failed
+#version 450
+#define UNITY_ENABLE_REFLECTION_BUFFERS 1
+#define UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS 1
+#define UNITY_PBS_USE_BRDF1 1
+#define UNITY_SPECCUBE_BOX_PROJECTION 1
+#define UNITY_SPECCUBE_BLENDING 1
+#define UNITY_ENABLE_DETAIL_NORMALMAP 1
+#define SHADER_API_DESKTOP 1
+#define UNITY_COLORSPACE_GAMMA 1
+#define UNITY_LIGHT_PROBE_PROXY_VOLUME 1
+#define UNITY_LIGHTMAP_FULL_HDR 1
+#ifndef SHADER_TARGET
+    #define SHADER_TARGET 25
+#endif
+#ifndef SHADER_REQUIRE_DERIVATIVES
+    #define SHADER_REQUIRE_DERIVATIVES 1
+#endif
+#ifndef SHADER_TARGET_AVAILABLE
+    #define SHADER_TARGET_AVAILABLE 35
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS10
+    #define SHADER_AVAILABLE_INTERPOLATORS10 1
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS15
+    #define SHADER_AVAILABLE_INTERPOLATORS15 1
+#endif
+#ifndef SHADER_AVAILABLE_INTEGERS
+    #define SHADER_AVAILABLE_INTEGERS 1
+#endif
+#ifndef SHADER_AVAILABLE_MRT4
+    #define SHADER_AVAILABLE_MRT4 1
+#endif
+#ifndef SHADER_AVAILABLE_DERIVATIVES
+    #define SHADER_AVAILABLE_DERIVATIVES 1
+#endif
+#ifndef SHADER_AVAILABLE_SAMPLELOD
+    #define SHADER_AVAILABLE_SAMPLELOD 1
+#endif
+#ifndef SHADER_AVAILABLE_FRAGCOORD
+    #define SHADER_AVAILABLE_FRAGCOORD 1
+#endif
+#ifndef SHADER_AVAILABLE_2DARRAY
+    #define SHADER_AVAILABLE_2DARRAY 1
+#endif
+#ifndef SHADER_AVAILABLE_INSTANCING
+    #define SHADER_AVAILABLE_INSTANCING 1
+#endif
+#ifndef SHADER_API_GLCORE
+    #define SHADER_API_GLCORE 1
+#endif
+#line 1
+#ifndef GLSL_SUPPORT_INCLUDED
+#define GLSL_SUPPORT_INCLUDED
+// Automatically included in raw GLSL (GLSLPROGRAM) shader snippets, to map from some of the legacy OpenGL
+// variable names to uniform names used by Unity.
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+uniform mat4 unity_ObjectToWorld;
+uniform mat4 unity_WorldToObject;
+uniform mat4 unity_MatrixVP;
+uniform mat4 unity_MatrixV;
+uniform mat4 unity_MatrixInvV;
+uniform mat4 glstate_matrix_projection;
+#define gl_ModelViewProjectionMatrix        (unity_MatrixVP * unity_ObjectToWorld)
+#define gl_ModelViewMatrix                  (unity_MatrixV * unity_ObjectToWorld)
+#define gl_ModelViewMatrixTranspose         (transpose(unity_MatrixV * unity_ObjectToWorld))
+#define gl_ModelViewMatrixInverseTranspose  (transpose(unity_WorldToObject * unity_MatrixInvV))
+#define gl_NormalMatrix                     (transpose(mat3(unity_WorldToObject * unity_MatrixInvV)))
+#define gl_ProjectionMatrix                 glstate_matrix_projection
+#if __VERSION__ < 120
+#ifndef UNITY_GLSL_STRIP_TRANSPOSE
+mat3 transpose(mat3 mtx)
+{
+    vec3 c0 = mtx[0];
+    vec3 c1 = mtx[1];
+    vec3 c2 = mtx[2];
+    return mat3(
+        vec3(c0.x, c1.x, c2.x),
+        vec3(c0.y, c1.y, c2.y),
+        vec3(c0.z, c1.z, c2.z)
+    );
+}
+mat4 transpose(mat4 mtx)
+{
+    vec4 c0 = mtx[0];
+    vec4 c1 = mtx[1];
+    vec4 c2 = mtx[2];
+    vec4 c3 = mtx[3];
+    return mat4(
+        vec4(c0.x, c1.x, c2.x, c3.x),
+        vec4(c0.y, c1.y, c2.y, c3.y),
+        vec4(c0.z, c1.z, c2.z, c3.z),
+        vec4(c0.w, c1.w, c2.w, c3.w)
+    );
+}
+#endif
+#endif // __VERSION__ < 120
+#endif // GLSL_SUPPORT_INCLUDED
+#line 50
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+/* UNITY: Original start of shader */
+            #line 1
+#ifndef UNITY_CG_INCLUDED
+#define UNITY_CG_INCLUDED
+// -------------------------------------------------------------------
+// Common functions
+float saturate(float x)
+{
+    return max(0.0, min(1.0, x));
+}
+// -------------------------------------------------------------------
+//  builtin values exposed from Unity
+// Time values from Unity
+uniform vec4 _Time;
+uniform vec4 _SinTime;
+uniform vec4 _CosTime;
+// x = 1 or -1 (-1 if projection is flipped)
+// y = near plane
+// z = far plane
+// w = 1/far plane
+uniform vec4 _ProjectionParams;
+// x = width
+// y = height
+// z = 1 + 1.0/width
+// w = 1 + 1.0/height
+uniform vec4 _ScreenParams;
+uniform vec3 _WorldSpaceCameraPos;
+uniform vec4 _WorldSpaceLightPos0;
+uniform vec4 _LightPositionRange; // xyz = pos, w = 1/range
+// -------------------------------------------------------------------
+//  helper functions and macros used in many standard shaders
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE
+#define USING_DIRECTIONAL_LIGHT
+#endif
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE || defined POINT || defined SPOT || defined POINT_NOATT || defined POINT_COOKIE
+#define USING_LIGHT_MULTI_COMPILE
+#endif
+// VERTEX
+// Calculates UV offset for parallax bump mapping
+vec2 ParallaxOffset( float h, float height, vec3 viewDir )
+{
+    h = h * height - height/2.0;
+    vec3 v = normalize(viewDir);
+    v.z += 0.42;
+    return h * (v.xy / v.z);
+}
+// Converts color to luminance (grayscale)
+float Luminance( vec3 c )
+{
+    return dot( c, vec3(0.22, 0.707, 0.071) );
+}
+#endif
+#line 16
+            
+            uniform sampler2D _MainTex;
+			sampler2D _CameraDepthTexture;
+            out vec4 textureCoordinates;
+			vec4 iResolution = _ScreenParams;
+			// Pixelate variables
+			const float PIXEL_RESOLUTION_X = 128;
+			const float PIXEL_RESOLUTION_Y = 72;
+			const int SAMPLE_PER_PIXEL = 3;
+            // here ends the definition of the vertex shader
+            // here ends the definition of the fragment shader
+            
+#define gl_Vertex _glesVertex
+in vec4 _glesVertex;
+#define gl_Normal _glesNormal
+in vec3 _glesNormal;
+#define gl_MultiTexCoord0 _glesMultiTexCoord0
+in vec4 _glesMultiTexCoord0;
+#define gl_TexCoord _glesTexCoord
+out vec4 _glesTexCoord[1];
+// Computes world space light direction
+vec3 WorldSpaceLightDir( vec4 v )
+{
+    vec3 worldPos = (unity_ObjectToWorld * v).xyz;
+    #ifndef USING_LIGHT_MULTI_COMPILE
+        return _WorldSpaceLightPos0.xyz - worldPos * _WorldSpaceLightPos0.w;
+    #else
+        #ifndef USING_DIRECTIONAL_LIGHT
+        return _WorldSpaceLightPos0.xyz - worldPos;
+        #else
+        return _WorldSpaceLightPos0.xyz;
+        #endif
+    #endif
+}
+// Computes object space light direction
+vec3 ObjSpaceLightDir( vec4 v )
+{
+    vec3 objSpaceLightPos = (unity_WorldToObject * _WorldSpaceLightPos0).xyz;
+    #ifndef USING_LIGHT_MULTI_COMPILE
+        return objSpaceLightPos.xyz - v.xyz * _WorldSpaceLightPos0.w;
+    #else
+        #ifndef USING_DIRECTIONAL_LIGHT
+        return objSpaceLightPos.xyz - v.xyz;
+        #else
+        return objSpaceLightPos.xyz;
+        #endif
+    #endif
+}
+// Computes world space view direction
+vec3 WorldSpaceViewDir( vec4 v )
+{
+    return _WorldSpaceCameraPos.xyz - (unity_ObjectToWorld * v).xyz;
+}
+// Computes object space view direction
+vec3 ObjSpaceViewDir( vec4 v )
+{
+    vec3 objSpaceCameraPos = (unity_WorldToObject * vec4(_WorldSpaceCameraPos.xyz, 1.0)).xyz;
+    return objSpaceCameraPos - v.xyz;
+}
+// Declares 3x3 matrix 'rotation', filled with tangent space basis
+// Do not use multiline define here, nVidia OpenGL drivers are buggy in parsing that.
+#define TANGENT_SPACE_ROTATION vec3 binormal = cross( gl_Normal.xyz, Tangent.xyz ) * Tangent.w; mat3 rotation = mat3( Tangent.x, binormal.x, gl_Normal.x, Tangent.y, binormal.y, gl_Normal.y, Tangent.z, binormal.z, gl_Normal.z );
+// Transforms float2 UV by scale/bias property (new method)
+// GLSL ES does not support ## concat operator so we also provide macro that expects xxx_ST
+#define TRANSFORM_TEX_ST(tex,namest) (tex.xy * namest.xy + namest.zw)
+#ifndef GL_ES
+    #define TRANSFORM_TEX(tex,name) TRANSFORM_TEX_ST(tex, name##_ST)
+#endif
+// Deprecated. Used to transform 4D UV by a fixed function texture matrix. Now just returns the passed UV.
+#define TRANSFORM_UV(idx) (gl_TexCoord[0].xy)
+ // here begins the vertex shader
+            void main() // all vertex shaders define a main() function
+            {
+                textureCoordinates = gl_MultiTexCoord0;
+                gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+            }
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/GLSL_PP:
+0(19) : error C7554: OpenGL requires sampler variables to be explicitly declared as uniform
+-------- Shader Hidden/GLSL_PP compilation failed
+#version 450
+#define UNITY_ENABLE_REFLECTION_BUFFERS 1
+#define UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS 1
+#define UNITY_PBS_USE_BRDF1 1
+#define UNITY_SPECCUBE_BOX_PROJECTION 1
+#define UNITY_SPECCUBE_BLENDING 1
+#define UNITY_ENABLE_DETAIL_NORMALMAP 1
+#define SHADER_API_DESKTOP 1
+#define UNITY_COLORSPACE_GAMMA 1
+#define UNITY_LIGHT_PROBE_PROXY_VOLUME 1
+#define UNITY_LIGHTMAP_FULL_HDR 1
+#ifndef SHADER_TARGET
+    #define SHADER_TARGET 25
+#endif
+#ifndef SHADER_REQUIRE_DERIVATIVES
+    #define SHADER_REQUIRE_DERIVATIVES 1
+#endif
+#ifndef SHADER_TARGET_AVAILABLE
+    #define SHADER_TARGET_AVAILABLE 35
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS10
+    #define SHADER_AVAILABLE_INTERPOLATORS10 1
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS15
+    #define SHADER_AVAILABLE_INTERPOLATORS15 1
+#endif
+#ifndef SHADER_AVAILABLE_INTEGERS
+    #define SHADER_AVAILABLE_INTEGERS 1
+#endif
+#ifndef SHADER_AVAILABLE_MRT4
+    #define SHADER_AVAILABLE_MRT4 1
+#endif
+#ifndef SHADER_AVAILABLE_DERIVATIVES
+    #define SHADER_AVAILABLE_DERIVATIVES 1
+#endif
+#ifndef SHADER_AVAILABLE_SAMPLELOD
+    #define SHADER_AVAILABLE_SAMPLELOD 1
+#endif
+#ifndef SHADER_AVAILABLE_FRAGCOORD
+    #define SHADER_AVAILABLE_FRAGCOORD 1
+#endif
+#ifndef SHADER_AVAILABLE_2DARRAY
+    #define SHADER_AVAILABLE_2DARRAY 1
+#endif
+#ifndef SHADER_AVAILABLE_INSTANCING
+    #define SHADER_AVAILABLE_INSTANCING 1
+#endif
+#ifndef SHADER_API_GLCORE
+    #define SHADER_API_GLCORE 1
+#endif
+#line 1
+#ifndef GLSL_SUPPORT_INCLUDED
+#define GLSL_SUPPORT_INCLUDED
+// Automatically included in raw GLSL (GLSLPROGRAM) shader snippets, to map from some of the legacy OpenGL
+// variable names to uniform names used by Unity.
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+uniform mat4 unity_ObjectToWorld;
+uniform mat4 unity_WorldToObject;
+uniform mat4 unity_MatrixVP;
+uniform mat4 unity_MatrixV;
+uniform mat4 unity_MatrixInvV;
+uniform mat4 glstate_matrix_projection;
+#define gl_ModelViewProjectionMatrix        (unity_MatrixVP * unity_ObjectToWorld)
+#define gl_ModelViewMatrix                  (unity_MatrixV * unity_ObjectToWorld)
+#define gl_ModelViewMatrixTranspose         (transpose(unity_MatrixV * unity_ObjectToWorld))
+#define gl_ModelViewMatrixInverseTranspose  (transpose(unity_WorldToObject * unity_MatrixInvV))
+#define gl_NormalMatrix                     (transpose(mat3(unity_WorldToObject * unity_MatrixInvV)))
+#define gl_ProjectionMatrix                 glstate_matrix_projection
+#if __VERSION__ < 120
+#ifndef UNITY_GLSL_STRIP_TRANSPOSE
+mat3 transpose(mat3 mtx)
+{
+    vec3 c0 = mtx[0];
+    vec3 c1 = mtx[1];
+    vec3 c2 = mtx[2];
+    return mat3(
+        vec3(c0.x, c1.x, c2.x),
+        vec3(c0.y, c1.y, c2.y),
+        vec3(c0.z, c1.z, c2.z)
+    );
+}
+mat4 transpose(mat4 mtx)
+{
+    vec4 c0 = mtx[0];
+    vec4 c1 = mtx[1];
+    vec4 c2 = mtx[2];
+    vec4 c3 = mtx[3];
+    return mat4(
+        vec4(c0.x, c1.x, c2.x, c3.x),
+        vec4(c0.y, c1.y, c2.y, c3.y),
+        vec4(c0.z, c1.z, c2.z, c3.z),
+        vec4(c0.w, c1.w, c2.w, c3.w)
+    );
+}
+#endif
+#endif // __VERSION__ < 120
+#endif // GLSL_SUPPORT_INCLUDED
+#line 50
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+/* UNITY: Original start of shader */
+            #line 1
+#ifndef UNITY_CG_INCLUDED
+#define UNITY_CG_INCLUDED
+// -------------------------------------------------------------------
+// Common functions
+float saturate(float x)
+{
+    return max(0.0, min(1.0, x));
+}
+// -------------------------------------------------------------------
+//  builtin values exposed from Unity
+// Time values from Unity
+uniform vec4 _Time;
+uniform vec4 _SinTime;
+uniform vec4 _CosTime;
+// x = 1 or -1 (-1 if projection is flipped)
+// y = near plane
+// z = far plane
+// w = 1/far plane
+uniform vec4 _ProjectionParams;
+// x = width
+// y = height
+// z = 1 + 1.0/width
+// w = 1 + 1.0/height
+uniform vec4 _ScreenParams;
+uniform vec3 _WorldSpaceCameraPos;
+uniform vec4 _WorldSpaceLightPos0;
+uniform vec4 _LightPositionRange; // xyz = pos, w = 1/range
+// -------------------------------------------------------------------
+//  helper functions and macros used in many standard shaders
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE
+#define USING_DIRECTIONAL_LIGHT
+#endif
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE || defined POINT || defined SPOT || defined POINT_NOATT || defined POINT_COOKIE
+#define USING_LIGHT_MULTI_COMPILE
+#endif
+// VERTEX
+// Calculates UV offset for parallax bump mapping
+vec2 ParallaxOffset( float h, float height, vec3 viewDir )
+{
+    h = h * height - height/2.0;
+    vec3 v = normalize(viewDir);
+    v.z += 0.42;
+    return h * (v.xy / v.z);
+}
+// Converts color to luminance (grayscale)
+float Luminance( vec3 c )
+{
+    return dot( c, vec3(0.22, 0.707, 0.071) );
+}
+#endif
+#line 16
+            
+            uniform sampler2D _MainTex;
+			sampler2D _CameraDepthTexture;
+            out vec4 textureCoordinates;
+			vec4 iResolution = _ScreenParams;
+			// Pixelate variables
+			const float PIXEL_RESOLUTION_X = 128;
+			const float PIXEL_RESOLUTION_Y = 72;
+			const int SAMPLE_PER_PIXEL = 3;
+            // here ends the definition of the vertex shader
+            // here ends the definition of the fragment shader
+            
+#define gl_FragColor _glesFragColor
+out vec4 _glesFragColor;
+ // here begins the fragment shader
+            //in vec4 textureCoordinates;
+            void main() // all fragment shaders define a main() function
+            {
+				vec2 coord = gl_FragCoord.xy / iResolution.xy;
+				float grid_step_x = (1 / PIXEL_RESOLUTION_X);
+				float grid_step_y = (1 / PIXEL_RESOLUTION_Y);
+				int grid_coord_x = int(coord.x / grid_step_x); // find which grid it is in x coordinate
+				int grid_coord_y = int(coord.y / grid_step_y); // find which grid it is in y coordinate
+				vec2 pixel_sample = vec2((grid_coord_x + 0.5) * grid_step_x, (grid_coord_y + 0.5) * grid_step_y);
+				// Pixelate variables:
+				//gl_FragColor = texture(_MainTex, pixel_sample);
+				gl_FragColor = texture(_CameraDepthTexturem, coord);
+				
+            }
+-------- failed compiling:
+fragment evaluation shader
+GLSL compilation failed for shader Hidden/GLSL_PP:
+0(19) : error C7554: OpenGL requires sampler variables to be explicitly declared as uniform
+0(59) : error C1503: undefined variable "_CameraDepthTexturem"
+Note: Creation of internal variant of shader 'Hidden/GLSL_PP' failed.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.9 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.162700 ms (FindLiveObjects: 0.097000 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.960000 ms  DeleteObjects: 0.057700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/GLSL_PP.shader
+  artifactKey: Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GLSL_PP.shader using Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed519f8b48d6825889fb5d004b665edd') in 0.024709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.742187 seconds.
+  path: Assets/Materials/GLSL_PP.shader
+  artifactKey: Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GLSL_PP.shader using Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d52390159767621bb0e62a6fea4ff8') in 0.004252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.147792 seconds.
+  path: Assets/Materials/GLSL_PP.shader
+  artifactKey: Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GLSL_PP.shader using Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f48168a0400abe3eaf94aa8b9925f1c') in 0.003183 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001825 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (209ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+-------- Shader Hidden/GLSL_PP compilation failed
+#version 450
+#define UNITY_ENABLE_REFLECTION_BUFFERS 1
+#define UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS 1
+#define UNITY_PBS_USE_BRDF1 1
+#define UNITY_SPECCUBE_BOX_PROJECTION 1
+#define UNITY_SPECCUBE_BLENDING 1
+#define UNITY_ENABLE_DETAIL_NORMALMAP 1
+#define SHADER_API_DESKTOP 1
+#define UNITY_COLORSPACE_GAMMA 1
+#define UNITY_LIGHT_PROBE_PROXY_VOLUME 1
+#define UNITY_LIGHTMAP_FULL_HDR 1
+#ifndef SHADER_TARGET
+    #define SHADER_TARGET 25
+#endif
+#ifndef SHADER_REQUIRE_DERIVATIVES
+    #define SHADER_REQUIRE_DERIVATIVES 1
+#endif
+#ifndef SHADER_TARGET_AVAILABLE
+    #define SHADER_TARGET_AVAILABLE 35
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS10
+    #define SHADER_AVAILABLE_INTERPOLATORS10 1
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS15
+    #define SHADER_AVAILABLE_INTERPOLATORS15 1
+#endif
+#ifndef SHADER_AVAILABLE_INTEGERS
+    #define SHADER_AVAILABLE_INTEGERS 1
+#endif
+#ifndef SHADER_AVAILABLE_MRT4
+    #define SHADER_AVAILABLE_MRT4 1
+#endif
+#ifndef SHADER_AVAILABLE_DERIVATIVES
+    #define SHADER_AVAILABLE_DERIVATIVES 1
+#endif
+#ifndef SHADER_AVAILABLE_SAMPLELOD
+    #define SHADER_AVAILABLE_SAMPLELOD 1
+#endif
+#ifndef SHADER_AVAILABLE_FRAGCOORD
+    #define SHADER_AVAILABLE_FRAGCOORD 1
+#endif
+#ifndef SHADER_AVAILABLE_2DARRAY
+    #define SHADER_AVAILABLE_2DARRAY 1
+#endif
+#ifndef SHADER_AVAILABLE_INSTANCING
+    #define SHADER_AVAILABLE_INSTANCING 1
+#endif
+#ifndef SHADER_API_GLCORE
+    #define SHADER_API_GLCORE 1
+#endif
+#line 1
+#ifndef GLSL_SUPPORT_INCLUDED
+#define GLSL_SUPPORT_INCLUDED
+// Automatically included in raw GLSL (GLSLPROGRAM) shader snippets, to map from some of the legacy OpenGL
+// variable names to uniform names used by Unity.
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+uniform mat4 unity_ObjectToWorld;
+uniform mat4 unity_WorldToObject;
+uniform mat4 unity_MatrixVP;
+uniform mat4 unity_MatrixV;
+uniform mat4 unity_MatrixInvV;
+uniform mat4 glstate_matrix_projection;
+#define gl_ModelViewProjectionMatrix        (unity_MatrixVP * unity_ObjectToWorld)
+#define gl_ModelViewMatrix                  (unity_MatrixV * unity_ObjectToWorld)
+#define gl_ModelViewMatrixTranspose         (transpose(unity_MatrixV * unity_ObjectToWorld))
+#define gl_ModelViewMatrixInverseTranspose  (transpose(unity_WorldToObject * unity_MatrixInvV))
+#define gl_NormalMatrix                     (transpose(mat3(unity_WorldToObject * unity_MatrixInvV)))
+#define gl_ProjectionMatrix                 glstate_matrix_projection
+#if __VERSION__ < 120
+#ifndef UNITY_GLSL_STRIP_TRANSPOSE
+mat3 transpose(mat3 mtx)
+{
+    vec3 c0 = mtx[0];
+    vec3 c1 = mtx[1];
+    vec3 c2 = mtx[2];
+    return mat3(
+        vec3(c0.x, c1.x, c2.x),
+        vec3(c0.y, c1.y, c2.y),
+        vec3(c0.z, c1.z, c2.z)
+    );
+}
+mat4 transpose(mat4 mtx)
+{
+    vec4 c0 = mtx[0];
+    vec4 c1 = mtx[1];
+    vec4 c2 = mtx[2];
+    vec4 c3 = mtx[3];
+    return mat4(
+        vec4(c0.x, c1.x, c2.x, c3.x),
+        vec4(c0.y, c1.y, c2.y, c3.y),
+        vec4(c0.z, c1.z, c2.z, c3.z),
+        vec4(c0.w, c1.w, c2.w, c3.w)
+    );
+}
+#endif
+#endif // __VERSION__ < 120
+#endif // GLSL_SUPPORT_INCLUDED
+#line 50
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+/* UNITY: Original start of shader */
+            #line 1
+#ifndef UNITY_CG_INCLUDED
+#define UNITY_CG_INCLUDED
+// -------------------------------------------------------------------
+// Common functions
+float saturate(float x)
+{
+    return max(0.0, min(1.0, x));
+}
+// -------------------------------------------------------------------
+//  builtin values exposed from Unity
+// Time values from Unity
+uniform vec4 _Time;
+uniform vec4 _SinTime;
+uniform vec4 _CosTime;
+// x = 1 or -1 (-1 if projection is flipped)
+// y = near plane
+// z = far plane
+// w = 1/far plane
+uniform vec4 _ProjectionParams;
+// x = width
+// y = height
+// z = 1 + 1.0/width
+// w = 1 + 1.0/height
+uniform vec4 _ScreenParams;
+uniform vec3 _WorldSpaceCameraPos;
+uniform vec4 _WorldSpaceLightPos0;
+uniform vec4 _LightPositionRange; // xyz = pos, w = 1/range
+// -------------------------------------------------------------------
+//  helper functions and macros used in many standard shaders
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE
+#define USING_DIRECTIONAL_LIGHT
+#endif
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE || defined POINT || defined SPOT || defined POINT_NOATT || defined POINT_COOKIE
+#define USING_LIGHT_MULTI_COMPILE
+#endif
+// VERTEX
+// Calculates UV offset for parallax bump mapping
+vec2 ParallaxOffset( float h, float height, vec3 viewDir )
+{
+    h = h * height - height/2.0;
+    vec3 v = normalize(viewDir);
+    v.z += 0.42;
+    return h * (v.xy / v.z);
+}
+// Converts color to luminance (grayscale)
+float Luminance( vec3 c )
+{
+    return dot( c, vec3(0.22, 0.707, 0.071) );
+}
+#endif
+#line 16
+            
+            uniform sampler2D _MainTex;
+			sampler2D _CameraDepthTexture;
+            out vec4 textureCoordinates;
+			vec4 iResolution = _ScreenParams;
+			// Pixelate variables
+			const float PIXEL_RESOLUTION_X = 128;
+			const float PIXEL_RESOLUTION_Y = 72;
+			const int SAMPLE_PER_PIXEL = 3;
+            // here ends the definition of the vertex shader
+            // here ends the definition of the fragment shader
+            
+#define gl_Vertex _glesVertex
+in vec4 _glesVertex;
+#define gl_Normal _glesNormal
+in vec3 _glesNormal;
+#define gl_MultiTexCoord0 _glesMultiTexCoord0
+in vec4 _glesMultiTexCoord0;
+#define gl_TexCoord _glesTexCoord
+out vec4 _glesTexCoord[1];
+// Computes world space light direction
+vec3 WorldSpaceLightDir( vec4 v )
+{
+    vec3 worldPos = (unity_ObjectToWorld * v).xyz;
+    #ifndef USING_LIGHT_MULTI_COMPILE
+        return _WorldSpaceLightPos0.xyz - worldPos * _WorldSpaceLightPos0.w;
+    #else
+        #ifndef USING_DIRECTIONAL_LIGHT
+        return _WorldSpaceLightPos0.xyz - worldPos;
+        #else
+        return _WorldSpaceLightPos0.xyz;
+        #endif
+    #endif
+}
+// Computes object space light direction
+vec3 ObjSpaceLightDir( vec4 v )
+{
+    vec3 objSpaceLightPos = (unity_WorldToObject * _WorldSpaceLightPos0).xyz;
+    #ifndef USING_LIGHT_MULTI_COMPILE
+        return objSpaceLightPos.xyz - v.xyz * _WorldSpaceLightPos0.w;
+    #else
+        #ifndef USING_DIRECTIONAL_LIGHT
+        return objSpaceLightPos.xyz - v.xyz;
+        #else
+        return objSpaceLightPos.xyz;
+        #endif
+    #endif
+}
+// Computes world space view direction
+vec3 WorldSpaceViewDir( vec4 v )
+{
+    return _WorldSpaceCameraPos.xyz - (unity_ObjectToWorld * v).xyz;
+}
+// Computes object space view direction
+vec3 ObjSpaceViewDir( vec4 v )
+{
+    vec3 objSpaceCameraPos = (unity_WorldToObject * vec4(_WorldSpaceCameraPos.xyz, 1.0)).xyz;
+    return objSpaceCameraPos - v.xyz;
+}
+// Declares 3x3 matrix 'rotation', filled with tangent space basis
+// Do not use multiline define here, nVidia OpenGL drivers are buggy in parsing that.
+#define TANGENT_SPACE_ROTATION vec3 binormal = cross( gl_Normal.xyz, Tangent.xyz ) * Tangent.w; mat3 rotation = mat3( Tangent.x, binormal.x, gl_Normal.x, Tangent.y, binormal.y, gl_Normal.y, Tangent.z, binormal.z, gl_Normal.z );
+// Transforms float2 UV by scale/bias property (new method)
+// GLSL ES does not support ## concat operator so we also provide macro that expects xxx_ST
+#define TRANSFORM_TEX_ST(tex,namest) (tex.xy * namest.xy + namest.zw)
+#ifndef GL_ES
+    #define TRANSFORM_TEX(tex,name) TRANSFORM_TEX_ST(tex, name##_ST)
+#endif
+// Deprecated. Used to transform 4D UV by a fixed function texture matrix. Now just returns the passed UV.
+#define TRANSFORM_UV(idx) (gl_TexCoord[0].xy)
+ // here begins the vertex shader
+            void main() // all vertex shaders define a main() function
+            {
+                textureCoordinates = gl_MultiTexCoord0;
+                gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+            }
+-------- failed compiling:
+vertex shader
+GLSL compilation failed for shader Hidden/GLSL_PP:
+0(19) : error C7554: OpenGL requires sampler variables to be explicitly declared as uniform
+-------- Shader Hidden/GLSL_PP compilation failed
+#version 450
+#define UNITY_ENABLE_REFLECTION_BUFFERS 1
+#define UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS 1
+#define UNITY_PBS_USE_BRDF1 1
+#define UNITY_SPECCUBE_BOX_PROJECTION 1
+#define UNITY_SPECCUBE_BLENDING 1
+#define UNITY_ENABLE_DETAIL_NORMALMAP 1
+#define SHADER_API_DESKTOP 1
+#define UNITY_COLORSPACE_GAMMA 1
+#define UNITY_LIGHT_PROBE_PROXY_VOLUME 1
+#define UNITY_LIGHTMAP_FULL_HDR 1
+#ifndef SHADER_TARGET
+    #define SHADER_TARGET 25
+#endif
+#ifndef SHADER_REQUIRE_DERIVATIVES
+    #define SHADER_REQUIRE_DERIVATIVES 1
+#endif
+#ifndef SHADER_TARGET_AVAILABLE
+    #define SHADER_TARGET_AVAILABLE 35
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS10
+    #define SHADER_AVAILABLE_INTERPOLATORS10 1
+#endif
+#ifndef SHADER_AVAILABLE_INTERPOLATORS15
+    #define SHADER_AVAILABLE_INTERPOLATORS15 1
+#endif
+#ifndef SHADER_AVAILABLE_INTEGERS
+    #define SHADER_AVAILABLE_INTEGERS 1
+#endif
+#ifndef SHADER_AVAILABLE_MRT4
+    #define SHADER_AVAILABLE_MRT4 1
+#endif
+#ifndef SHADER_AVAILABLE_DERIVATIVES
+    #define SHADER_AVAILABLE_DERIVATIVES 1
+#endif
+#ifndef SHADER_AVAILABLE_SAMPLELOD
+    #define SHADER_AVAILABLE_SAMPLELOD 1
+#endif
+#ifndef SHADER_AVAILABLE_FRAGCOORD
+    #define SHADER_AVAILABLE_FRAGCOORD 1
+#endif
+#ifndef SHADER_AVAILABLE_2DARRAY
+    #define SHADER_AVAILABLE_2DARRAY 1
+#endif
+#ifndef SHADER_AVAILABLE_INSTANCING
+    #define SHADER_AVAILABLE_INSTANCING 1
+#endif
+#ifndef SHADER_API_GLCORE
+    #define SHADER_API_GLCORE 1
+#endif
+#line 1
+#ifndef GLSL_SUPPORT_INCLUDED
+#define GLSL_SUPPORT_INCLUDED
+// Automatically included in raw GLSL (GLSLPROGRAM) shader snippets, to map from some of the legacy OpenGL
+// variable names to uniform names used by Unity.
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+    precision highp float;
+#else
+    precision mediump float;
+#endif
+uniform mat4 unity_ObjectToWorld;
+uniform mat4 unity_WorldToObject;
+uniform mat4 unity_MatrixVP;
+uniform mat4 unity_MatrixV;
+uniform mat4 unity_MatrixInvV;
+uniform mat4 glstate_matrix_projection;
+#define gl_ModelViewProjectionMatrix        (unity_MatrixVP * unity_ObjectToWorld)
+#define gl_ModelViewMatrix                  (unity_MatrixV * unity_ObjectToWorld)
+#define gl_ModelViewMatrixTranspose         (transpose(unity_MatrixV * unity_ObjectToWorld))
+#define gl_ModelViewMatrixInverseTranspose  (transpose(unity_WorldToObject * unity_MatrixInvV))
+#define gl_NormalMatrix                     (transpose(mat3(unity_WorldToObject * unity_MatrixInvV)))
+#define gl_ProjectionMatrix                 glstate_matrix_projection
+#if __VERSION__ < 120
+#ifndef UNITY_GLSL_STRIP_TRANSPOSE
+mat3 transpose(mat3 mtx)
+{
+    vec3 c0 = mtx[0];
+    vec3 c1 = mtx[1];
+    vec3 c2 = mtx[2];
+    return mat3(
+        vec3(c0.x, c1.x, c2.x),
+        vec3(c0.y, c1.y, c2.y),
+        vec3(c0.z, c1.z, c2.z)
+    );
+}
+mat4 transpose(mat4 mtx)
+{
+    vec4 c0 = mtx[0];
+    vec4 c1 = mtx[1];
+    vec4 c2 = mtx[2];
+    vec4 c3 = mtx[3];
+    return mat4(
+        vec4(c0.x, c1.x, c2.x, c3.x),
+        vec4(c0.y, c1.y, c2.y, c3.y),
+        vec4(c0.z, c1.z, c2.z, c3.z),
+        vec4(c0.w, c1.w, c2.w, c3.w)
+    );
+}
+#endif
+#endif // __VERSION__ < 120
+#endif // GLSL_SUPPORT_INCLUDED
+#line 50
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+#line 12
+#ifdef DUMMY_PREPROCESSOR_TO_WORK_AROUND_HLSL_COMPILER_LINE_HANDLING
+#endif
+/* UNITY: Original start of shader */
+            #line 1
+#ifndef UNITY_CG_INCLUDED
+#define UNITY_CG_INCLUDED
+// -------------------------------------------------------------------
+// Common functions
+float saturate(float x)
+{
+    return max(0.0, min(1.0, x));
+}
+// -------------------------------------------------------------------
+//  builtin values exposed from Unity
+// Time values from Unity
+uniform vec4 _Time;
+uniform vec4 _SinTime;
+uniform vec4 _CosTime;
+// x = 1 or -1 (-1 if projection is flipped)
+// y = near plane
+// z = far plane
+// w = 1/far plane
+uniform vec4 _ProjectionParams;
+// x = width
+// y = height
+// z = 1 + 1.0/width
+// w = 1 + 1.0/height
+uniform vec4 _ScreenParams;
+uniform vec3 _WorldSpaceCameraPos;
+uniform vec4 _WorldSpaceLightPos0;
+uniform vec4 _LightPositionRange; // xyz = pos, w = 1/range
+// -------------------------------------------------------------------
+//  helper functions and macros used in many standard shaders
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE
+#define USING_DIRECTIONAL_LIGHT
+#endif
+#if defined DIRECTIONAL || defined DIRECTIONAL_COOKIE || defined POINT || defined SPOT || defined POINT_NOATT || defined POINT_COOKIE
+#define USING_LIGHT_MULTI_COMPILE
+#endif
+// VERTEX
+// Calculates UV offset for parallax bump mapping
+vec2 ParallaxOffset( float h, float height, vec3 viewDir )
+{
+    h = h * height - height/2.0;
+    vec3 v = normalize(viewDir);
+    v.z += 0.42;
+    return h * (v.xy / v.z);
+}
+// Converts color to luminance (grayscale)
+float Luminance( vec3 c )
+{
+    return dot( c, vec3(0.22, 0.707, 0.071) );
+}
+#endif
+#line 16
+            
+            uniform sampler2D _MainTex;
+			sampler2D _CameraDepthTexture;
+            out vec4 textureCoordinates;
+			vec4 iResolution = _ScreenParams;
+			// Pixelate variables
+			const float PIXEL_RESOLUTION_X = 128;
+			const float PIXEL_RESOLUTION_Y = 72;
+			const int SAMPLE_PER_PIXEL = 3;
+            // here ends the definition of the vertex shader
+            // here ends the definition of the fragment shader
+            
+#define gl_FragColor _glesFragColor
+out vec4 _glesFragColor;
+ // here begins the fragment shader
+            //in vec4 textureCoordinates;
+            void main() // all fragment shaders define a main() function
+            {
+				vec2 coord = gl_FragCoord.xy / iResolution.xy;
+				float grid_step_x = (1 / PIXEL_RESOLUTION_X);
+				float grid_step_y = (1 / PIXEL_RESOLUTION_Y);
+				int grid_coord_x = int(coord.x / grid_step_x); // find which grid it is in x coordinate
+				int grid_coord_y = int(coord.y / grid_step_y); // find which grid it is in y coordinate
+				vec2 pixel_sample = vec2((grid_coord_x + 0.5) * grid_step_x, (grid_coord_y + 0.5) * grid_step_y);
+				// Pixelate variables:
+				//gl_FragColor = texture(_MainTex, pixel_sample);
+				gl_FragColor = texture(_CameraDepthTexturem, coord);
+				
+            }
+-------- failed compiling:
+fragment evaluation shader
+GLSL compilation failed for shader Hidden/GLSL_PP:
+0(19) : error C7554: OpenGL requires sampler variables to be explicitly declared as uniform
+0(59) : error C1503: undefined variable "_CameraDepthTexturem"
+Note: Creation of internal variant of shader 'Hidden/GLSL_PP' failed.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.4 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.157000 ms (FindLiveObjects: 0.103400 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.001900 ms  DeleteObjects: 0.015100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.436396 seconds.
+  path: Assets/Materials/GLSL_PP.shader
+  artifactKey: Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GLSL_PP.shader using Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007018 seconds  code(4) message(Build asset version error: assets/materials/glsl_pp.shader in SourceAssetDB has modification time of '2022-03-20T16:47:44.2044031Z' while content on disk has modification time of '2022-03-20T16:47:47.6082328Z')
+  ERROR: Build asset version error: assets/materials/glsl_pp.shader in SourceAssetDB has modification time of '2022-03-20T16:47:44.2044031Z' while content on disk has modification time of '2022-03-20T16:47:47.6082328Z'
+========================================================================
+Received Import Request.
+  Time since last request: 17.916448 seconds.
+  path: Assets/Materials/GLSL_PP.shader
+  artifactKey: Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GLSL_PP.shader using Guid(b1d5253de7ff73243b4b90f27486cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc588d1a8a138f10ba9a7366d7e082e6') in 0.006179 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.7 MB.
+System memory in use after: 67.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 2.550300 ms (FindLiveObjects: 0.111600 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.374700 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 3.189700 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.222200 ms MarkObjects: 2.786700 ms  DeleteObjects: 0.019400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
