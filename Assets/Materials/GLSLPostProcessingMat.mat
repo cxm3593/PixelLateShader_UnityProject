@@ -78,13 +78,24 @@ Material:
     - color_range_b_max: 1
     - color_range_b_min: 0
     - color_range_g_max: 1
-    - color_range_g_min: 0.661
+    - color_range_g_min: 0
+    - color_range_h_max: 1
+    - color_range_h_min: 0
     - color_range_r_max: 1
     - color_range_r_min: 0.009
+    - color_range_s_max: 1
+    - color_range_s_min: 0
+    - color_range_v_max: 1
+    - color_range_v_min: 0
     - color_step: 7
     - edge_threshold: 1
+    - height: 72
+    - max_depth: 1
+    - minVal: -4.8
+    - min_depth: 0
+    - width: 128
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - edge_color: {r: 6.2, g: 0.33, b: 0.04, a: 1}
+    - edge_color: {r: 0.8301887, g: 0.70879316, b: 0.77695686, a: 0}
   m_BuildTextureStacks: []
