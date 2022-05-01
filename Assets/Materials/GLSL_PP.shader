@@ -12,8 +12,10 @@ Shader "Hidden/GLSL_PP"
 		color_range_s_max ("Max S", Range(0.0, 1.0) ) = 1.0
 		color_range_v_min ("Min V", Range(0.0, 1.0) ) = 0.0
 		color_range_v_max ("Max V", Range(0.0, 1.0) ) = 1.0
+		use_edge_detection ("Use edge detection", int) = 1
 		edge_threshold ("edge_threshold", Range(0.0, 1.0)) = 0.0
 		edge_color ("edge_color", Color) = (0.0, 0.0, 0.0)
+		use_color_palette ("Use palette", int) = 0
     }
     SubShader
     {
@@ -40,8 +42,13 @@ Shader "Hidden/GLSL_PP"
 
 			uniform float minVal = 1.0;
 
+			uniform int use_edge_detection = 1;
 			uniform float edge_threshold = 0.0;
 			uniform vec3 edge_color = vec3(0.25);
+
+			uniform int use_color_palette = 0;
+			uniform int palette_color_number = 0;
+			uniform vec3 palette_color[16];
 
             out vec4 textureCoordinates;
 			vec4 iResolution = _ScreenParams;
@@ -141,18 +148,36 @@ Shader "Hidden/GLSL_PP"
 				float v = int(hsv.b /  color_step_value) * color_step_value;
 				v = max(min(v, color_range_v_max), color_range_v_min);
 				vec3 rgb = hsv2rgb(vec3(h, s, v));
+				gl_FragColor.rgb = rgb;
+
+				
 
 				// Edge Detection				
-				float edge = Sobel(_CameraDepthTexture, pixel_sample) * edge_threshold;
-				edge = min(texture2D(_CameraDepthTexture, pixel_sample).r, edge);
+				if ( use_edge_detection != 0){
+					float edge = Sobel(_CameraDepthTexture, pixel_sample) * edge_threshold;
+					edge = min(texture2D(_CameraDepthTexture, pixel_sample).r, edge);
 
-				vec3 final_col = mix(rgb, edge_color, edge);
+					vec3 final_col = mix(rgb, edge_color, edge);
 				
-				gl_FragColor.rgb = final_col;
+					gl_FragColor.rgb = final_col;
+				}
 				
 				// for debug
 				// gl_FragColor = texture2D(_CameraDepthTexture, pixel_sample);
 				
+				// Color Palette
+				if (use_color_palette > 0){
+					int closest_index = 0;
+					float closest_distance = 9999;
+					for (int i=0; i< palette_color_number; i++){
+						float current_color_distance = length(gl_FragColor.rgb - palette_color[i].rgb);
+						if (current_color_distance < closest_distance){
+							closest_index = i;
+							closest_distance = current_color_distance;
+						}
+					}
+					gl_FragColor.rgb = palette_color[closest_index].rgb;
+				}
 				
             }
 

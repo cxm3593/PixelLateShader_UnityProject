@@ -373,6 +373,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mat: {fileID: 2100000, guid: 63ea116baa06b40409313f7b4a1006a3, type: 2}
   noiseTex: {fileID: 2800000, guid: 9fe43e5d6c5e9f743a99d1b504a08247, type: 3}
+  ID_texture: {fileID: 0}
+  palette:
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 1, g: 1, b: 1, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 1, b: 0.028357267, a: 0}
+  - {r: 0.8679245, g: 0.41058803, b: 0.33161268, a: 0}
+  - {r: 0.8396226, g: 0.32872015, b: 0.7741059, a: 0}
+  - {r: 0.21333212, g: 0.8733258, b: 0.8867924, a: 0}
 --- !u!1001 &1362801016
 PrefabInstance:
   m_ObjectHideFlags: 0

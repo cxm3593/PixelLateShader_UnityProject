@@ -47,6 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\RotationScript.cs" />
      <Compile Include="Assets\Script\PostProcessing.cs" />
      <None Include="Assets\Materials\GLSL_PP.shader" />
      <None Include="Assets\Materials\NewImageEffectShader.shader" />
